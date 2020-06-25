@@ -6,6 +6,11 @@
 #include <vector>
 #include <cassert>
 
+void test () {
+
+    return;
+}
+
 struct Point {
     int x, y;
 	Point() : Point(0, 0) {}
